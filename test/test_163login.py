@@ -27,8 +27,8 @@ login_btn = WebDriverWait(driver, 10, 1).until(
 )
 
 # 输入登录数据，并登录
-email[0].send_keys("mslbuaa@163.com")
-password[0].send_keys("msl327528%%")
+email[0].send_keys("*********")
+password[0].send_keys("***********")
 sleep(5)
 login_btn[0].click()
 
